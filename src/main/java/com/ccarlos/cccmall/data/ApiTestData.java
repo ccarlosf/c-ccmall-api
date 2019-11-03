@@ -7,6 +7,7 @@ package com.ccarlos.cccmall.data;
  */
 public class ApiTestData {
 
+    /** 单个主题报文数据 */
     public static String singleThemeStr = "[\n" +
             "    {\n" +
             "        \"id\": 1,\n" +
