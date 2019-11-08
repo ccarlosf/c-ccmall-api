@@ -7,7 +7,9 @@ package com.ccarlos.cccmall.data;
  */
 public class ApiTestData {
 
-    /** 单个主题报文数据 */
+    /**
+     * 单个主题报文数据
+     */
     public static String singleThemeStr = "[\n" +
             "    {\n" +
             "        \"id\": 1,\n" +
@@ -22,4 +24,27 @@ public class ApiTestData {
             "        \"online\": true\n" +
             "    }\n" +
             "]";
+
+    public static String getBannerByName = "{\n" +
+            "\t\"id\": 1,\n" +
+            "\t\"name\": \"b-1\",\n" +
+            "\t\"description\": \"首页顶部主banner\",\n" +
+            "\t\"img\": null,\n" +
+            "\t\"title\": null,\n" +
+            "\t\"items\": [{\n" +
+            "\t\t\"id\": 1,\n" +
+            "\t\t\"img\": \"\",\n" +
+            "\t\t\"keyword\": \"12\",\n" +
+            "\t\t\"type\": 1,\n" +
+            "\t\t\"name\": null,\n" +
+            "\t\t\"banner_id\": 1\n" +
+            "\t}, {\n" +
+            "\t\t\"id\": 2,\n" +
+            "\t\t\"img\": \"\",\n" +
+            "\t\t\"keyword\": \"13\",\n" +
+            "\t\t\"type\": 1,\n" +
+            "\t\t\"name\": null,\n" +
+            "\t\t\"banner_id\": 1\n" +
+            "\t}]\n" +
+            "}}";
 }
