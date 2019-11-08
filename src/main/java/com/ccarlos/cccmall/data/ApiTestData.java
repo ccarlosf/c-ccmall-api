@@ -26,25 +26,36 @@ public class ApiTestData {
             "]";
 
     public static String getBannerByName = "{\n" +
-            "\t\"id\": 1,\n" +
-            "\t\"name\": \"b-1\",\n" +
-            "\t\"description\": \"首页顶部主banner\",\n" +
-            "\t\"img\": null,\n" +
-            "\t\"title\": null,\n" +
-            "\t\"items\": [{\n" +
-            "\t\t\"id\": 1,\n" +
-            "\t\t\"img\": \"\",\n" +
-            "\t\t\"keyword\": \"12\",\n" +
-            "\t\t\"type\": 1,\n" +
-            "\t\t\"name\": null,\n" +
-            "\t\t\"banner_id\": 1\n" +
-            "\t}, {\n" +
-            "\t\t\"id\": 2,\n" +
-            "\t\t\"img\": \"\",\n" +
-            "\t\t\"keyword\": \"13\",\n" +
-            "\t\t\"type\": 1,\n" +
-            "\t\t\"name\": null,\n" +
-            "\t\t\"banner_id\": 1\n" +
-            "\t}]\n" +
-            "}}";
+            "    \"id\": 1,\n" +
+            "    \"name\": \"b-1\",\n" +
+            "    \"description\": \"首页顶部主banner\",\n" +
+            "    \"img\": null,\n" +
+            "    \"title\": null,\n" +
+            "    \"items\": [\n" +
+            "        {\n" +
+            "            \"id\": 12,\n" +
+            "            \"img\": \"http://i2.sleeve.7yue.pro/m1.png\",\n" +
+            "            \"keyword\": \"t-2\",\n" +
+            "            \"type\": 3,\n" +
+            "            \"name\": null,\n" +
+            "            \"banner_id\": 1\n" +
+            "        },\n" +
+            "        {\n" +
+            "            \"id\": 13,\n" +
+            "            \"img\": \"http://i1.sleeve.7yue.pro/assets/702f2ce9-5729-4aa4-aeb3-921513327747.png\",\n" +
+            "            \"keyword\": \"23\",\n" +
+            "            \"type\": 1,\n" +
+            "            \"name\": null,\n" +
+            "            \"banner_id\": 1\n" +
+            "        },\n" +
+            "        {\n" +
+            "            \"id\": 14,\n" +
+            "            \"img\": \"http://i1.sleeve.7yue.pro/assets/b8e510a1-8340-43c2-a4b0-0e56a40256f9.png\",\n" +
+            "            \"keyword\": \"24\",\n" +
+            "            \"type\": 1,\n" +
+            "            \"name\": null,\n" +
+            "            \"banner_id\": 1\n" +
+            "        }\n" +
+            "    ]\n" +
+            "}";
 }
