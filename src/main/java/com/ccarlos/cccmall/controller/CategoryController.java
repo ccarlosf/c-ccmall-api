@@ -21,7 +21,7 @@ import java.util.Map;
 public class CategoryController {
 
     /**
-     * @description: 获取分类六宫格数据
+     * @description: 获取模拟分类六宫格数据
      * @author: ccarlos
      * @date: 2019/11/8 23:11
       * @param: request
