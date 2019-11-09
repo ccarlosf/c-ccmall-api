@@ -7,6 +7,7 @@ package com.ccarlos.cccmall.data;
  */
 public class CategoryTestData {
 
+    /** 六宫格主题测试数据 */
     public static String getCategoryByGrid="[\n" +
             "    {\n" +
             "        \"id\": 1,\n" +
