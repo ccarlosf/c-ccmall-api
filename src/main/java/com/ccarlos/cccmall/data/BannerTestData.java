@@ -7,7 +7,9 @@ package com.ccarlos.cccmall.data;
  */
 public class BannerTestData {
 
-    /** 轮播图Banner测试数据 */
+    /**
+     * 轮播图Banner测试数据
+     */
     public static String getBannerByName = "{\n" +
             "    \"id\": 1,\n" +
             "    \"name\": \"b-1\",\n" +
@@ -38,6 +40,40 @@ public class BannerTestData {
             "            \"type\": 1,\n" +
             "            \"name\": null,\n" +
             "            \"banner_id\": 1\n" +
+            "        }\n" +
+            "    ]\n" +
+            "}";
+
+    public static String banner2 = "{\n" +
+            "    \"id\": 2,\n" +
+            "    \"name\": \"b-2\",\n" +
+            "    \"description\": \"热销商品banner\",\n" +
+            "    \"img\": \"http://i2.sleeve.7yue.pro/m4.png\",\n" +
+            "    \"title\": null,\n" +
+            "    \"items\": [\n" +
+            "        {\n" +
+            "            \"id\": 5,\n" +
+            "            \"img\": \"http://i2.sleeve.7yue.pro/m6.png\",\n" +
+            "            \"keyword\": \"28\",\n" +
+            "            \"type\": 1,\n" +
+            "            \"name\": \"left\",\n" +
+            "            \"banner_id\": 2\n" +
+            "        },\n" +
+            "        {\n" +
+            "            \"id\": 6,\n" +
+            "            \"img\": \"http://i2.sleeve.7yue.pro/m7.png\",\n" +
+            "            \"keyword\": \"26\",\n" +
+            "            \"type\": 1,\n" +
+            "            \"name\": \"right-top\",\n" +
+            "            \"banner_id\": 2\n" +
+            "        },\n" +
+            "        {\n" +
+            "            \"id\": 7,\n" +
+            "            \"img\": \"http://i2.sleeve.7yue.pro/m8.png\",\n" +
+            "            \"keyword\": \"27\",\n" +
+            "            \"type\": 1,\n" +
+            "            \"name\": \"right-bottom\",\n" +
+            "            \"banner_id\": 2\n" +
             "        }\n" +
             "    ]\n" +
             "}";

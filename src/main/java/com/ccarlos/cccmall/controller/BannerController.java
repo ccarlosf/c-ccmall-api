@@ -35,6 +35,10 @@ public class BannerController {
         log.info("根据Banner名获取Banner,地址栏参数信息:{}", name);
         log.info("根据Banner名获取Banner,请求参数parameterMap:{}", JSON.toJSONString(parameterMap));
         log.info("根据Banner名获取Banner,,请求返回数据:{}", BannerTestData.getBannerByName);
-        return BannerTestData.getBannerByName;
+        if(name.equals("b-2")){
+            return BannerTestData.banner2;
+        }else {
+            return BannerTestData.getBannerByName;
+        }
     }
 }
