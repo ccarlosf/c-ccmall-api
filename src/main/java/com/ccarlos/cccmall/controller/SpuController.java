@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.ccarlos.cccmall.data.SpuTestData;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
@@ -16,6 +17,7 @@ import java.util.Map;
  */
 @Slf4j
 @RestController
+@RequestMapping("/spu")
 public class SpuController {
 
     @GetMapping("/latest")
