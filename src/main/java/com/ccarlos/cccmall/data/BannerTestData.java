@@ -72,7 +72,7 @@ public class BannerTestData {
             "            \"img\": \"http://i2.sleeve.7yue.pro/m8.png\",\n" +
             "            \"keyword\": \"27\",\n" +
             "            \"type\": 1,\n" +
-            "            \"name\": \"right-bottom\",\n" +
+            "            \"name\": \"right-top\",\n" +
             "            \"banner_id\": 2\n" +
             "        }\n" +
             "    ]\n" +
