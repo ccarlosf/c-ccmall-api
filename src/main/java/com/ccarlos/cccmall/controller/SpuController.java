@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.ccarlos.cccmall.data.SpuTestData;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -26,5 +27,14 @@ public class SpuController {
         log.info("获取最新Spu商品列表,请求参数parameterMap:{}", JSON.toJSONString(parameterMap));
         log.info("获取最新Spu商品列表,,请求返回数据:{}", SpuTestData.latestSpuList);
         return SpuTestData.latestSpuList;
+    }
+
+    @GetMapping("/id/{id}/detail")
+    public String getDetail(HttpServletRequest request, @PathVariable("id") String id) {
+        Map<String, String[]> parameterMap = request.getParameterMap();
+        log.info("获取Spu商品详情,请求参数parameterMap:{}", JSON.toJSONString(parameterMap));
+        log.info("获取Spu商品详情,商品id:{}", id);
+        log.info("获取Spu商品详情,,请求返回数据:{}", SpuTestData.latestSpuList);
+        return SpuTestData.detail;
     }
 }

@@ -253,4 +253,171 @@ public class SpuTestData {
             "        }\n" +
             "    ]\n" +
             "}";
+
+    public static String detail="{\n" +
+            "    \"id\": 2,\n" +
+            "    \"title\": \"林间有风自营针织衫\",\n" +
+            "    \"subtitle\": \"瓜瓜设计，3件包邮\",\n" +
+            "    \"category_id\": 12,\n" +
+            "    \"root_category_id\": 2,\n" +
+            "    \"price\": \"77.00\",\n" +
+            "    \"img\": \"\",\n" +
+            "    \"for_theme_img\": \"\",\n" +
+            "    \"description\": null,\n" +
+            "    \"discount_price\": \"62.00\",\n" +
+            "    \"tags\": \"包邮$热门\",\n" +
+            "    \"is_test\": true,\n" +
+            "    \"online\": true,\n" +
+            "    \"sku_list\": [\n" +
+            "        {\n" +
+            "            \"id\": 2,\n" +
+            "            \"price\": 77.76,\n" +
+            "            \"discount_price\": null,\n" +
+            "            \"online\": true,\n" +
+            "            \"img\": \"\",\n" +
+            "            \"title\": \"金属灰·七龙珠\",\n" +
+            "            \"spu_id\": 2,\n" +
+            "            \"category_id\": 17,\n" +
+            "            \"root_category_id\": 3,\n" +
+            "            \"specs\": [\n" +
+            "                {\n" +
+            "                    \"key_id\": 1,\n" +
+            "                    \"key\": \"颜色\",\n" +
+            "                    \"value_id\": 45,\n" +
+            "                    \"value\": \"金属灰\"\n" +
+            "                },\n" +
+            "                {\n" +
+            "                    \"key_id\": 3,\n" +
+            "                    \"key\": \"图案\",\n" +
+            "                    \"value_id\": 9,\n" +
+            "                    \"value\": \"七龙珠\"\n" +
+            "                },\n" +
+            "                {\n" +
+            "                    \"key_id\": 4,\n" +
+            "                    \"key\": \"尺码\",\n" +
+            "                    \"value_id\": 14,\n" +
+            "                    \"value\": \"小号 S\"\n" +
+            "                }\n" +
+            "            ],\n" +
+            "            \"code\": \"2$1-45#3-9#4-14\",\n" +
+            "            \"stock\": 5\n" +
+            "        },\n" +
+            "        {\n" +
+            "            \"id\": 3,\n" +
+            "            \"price\": 66,\n" +
+            "            \"discount_price\": 59,\n" +
+            "            \"online\": true,\n" +
+            "            \"img\": \"\",\n" +
+            "            \"title\": \"青芒色·灌篮高手\",\n" +
+            "            \"spu_id\": 2,\n" +
+            "            \"category_id\": 17,\n" +
+            "            \"root_category_id\": 3,\n" +
+            "            \"specs\": [\n" +
+            "                {\n" +
+            "                    \"key_id\": 1,\n" +
+            "                    \"key\": \"颜色\",\n" +
+            "                    \"value_id\": 42,\n" +
+            "                    \"value\": \"青芒色\"\n" +
+            "                },\n" +
+            "                {\n" +
+            "                    \"key_id\": 3,\n" +
+            "                    \"key\": \"图案\",\n" +
+            "                    \"value_id\": 10,\n" +
+            "                    \"value\": \"灌篮高手\"\n" +
+            "                },\n" +
+            "                {\n" +
+            "                    \"key_id\": 4,\n" +
+            "                    \"key\": \"尺码\",\n" +
+            "                    \"value_id\": 15,\n" +
+            "                    \"value\": \"中号 M\"\n" +
+            "                }\n" +
+            "            ],\n" +
+            "            \"code\": \"2$1-42#3-10#4-15\",\n" +
+            "            \"stock\": 999\n" +
+            "        },\n" +
+            "        {\n" +
+            "            \"id\": 4,\n" +
+            "            \"price\": 88,\n" +
+            "            \"discount_price\": null,\n" +
+            "            \"online\": true,\n" +
+            "            \"img\": \"\",\n" +
+            "            \"title\": \"青芒色·圣斗士\",\n" +
+            "            \"spu_id\": 2,\n" +
+            "            \"category_id\": 17,\n" +
+            "            \"root_category_id\": 3,\n" +
+            "            \"specs\": [\n" +
+            "                {\n" +
+            "                    \"key_id\": 1,\n" +
+            "                    \"key\": \"颜色\",\n" +
+            "                    \"value_id\": 42,\n" +
+            "                    \"value\": \"青芒色\"\n" +
+            "                },\n" +
+            "                {\n" +
+            "                    \"key_id\": 3,\n" +
+            "                    \"key\": \"图案\",\n" +
+            "                    \"value_id\": 11,\n" +
+            "                    \"value\": \"圣斗士\"\n" +
+            "                },\n" +
+            "                {\n" +
+            "                    \"key_id\": 4,\n" +
+            "                    \"key\": \"尺码\",\n" +
+            "                    \"value_id\": 16,\n" +
+            "                    \"value\": \"大号  L\"\n" +
+            "                }\n" +
+            "            ],\n" +
+            "            \"code\": \"2$1-42#3-11#4-16\",\n" +
+            "            \"stock\": 8\n" +
+            "        },\n" +
+            "        {\n" +
+            "            \"id\": 5,\n" +
+            "            \"price\": 77,\n" +
+            "            \"discount_price\": 59,\n" +
+            "            \"online\": true,\n" +
+            "            \"img\": \"http://i1.sleeve.7yue.pro/assets/09f32ac8-1af4-4424-b221-44b10bd0986e.png\",\n" +
+            "            \"title\": \"橘黄色·七龙珠\",\n" +
+            "            \"spu_id\": 2,\n" +
+            "            \"category_id\": 17,\n" +
+            "            \"root_category_id\": 3,\n" +
+            "            \"specs\": [\n" +
+            "                {\n" +
+            "                    \"key_id\": 1,\n" +
+            "                    \"key\": \"颜色\",\n" +
+            "                    \"value_id\": 44,\n" +
+            "                    \"value\": \"橘黄色\"\n" +
+            "                },\n" +
+            "                {\n" +
+            "                    \"key_id\": 3,\n" +
+            "                    \"key\": \"图案\",\n" +
+            "                    \"value_id\": 9,\n" +
+            "                    \"value\": \"七龙珠\"\n" +
+            "                },\n" +
+            "                {\n" +
+            "                    \"key_id\": 4,\n" +
+            "                    \"key\": \"尺码\",\n" +
+            "                    \"value_id\": 14,\n" +
+            "                    \"value\": \"小号 S\"\n" +
+            "                }\n" +
+            "            ],\n" +
+            "            \"code\": \"2$1-44#3-9#4-14\",\n" +
+            "            \"stock\": 7\n" +
+            "        }\n" +
+            "    ],\n" +
+            "    \"spu_img_list\": [\n" +
+            "        {\n" +
+            "            \"id\": 165,\n" +
+            "            \"img\": \"http://i1.sleeve.7yue.pro/assets/5605cd6c-f869-46db-afe6-755b61a0122a.png\",\n" +
+            "            \"spu_id\": 2\n" +
+            "        }\n" +
+            "    ],\n" +
+            "    \"spu_detail_img_list\": [\n" +
+            "        {\n" +
+            "            \"id\": 24,\n" +
+            "            \"img\": \"http://i2.sleeve.7yue.pro/n4.png\",\n" +
+            "            \"spu_id\": 2,\n" +
+            "            \"index\": 1\n" +
+            "        }\n" +
+            "    ],\n" +
+            "    \"sketch_spec_id\": 1,\n" +
+            "    \"default_sku_id\": 2\n" +
+            "}";
 }
