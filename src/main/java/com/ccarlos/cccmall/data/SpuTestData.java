@@ -261,7 +261,7 @@ public class SpuTestData {
             "    \"category_id\": 12,\n" +
             "    \"root_category_id\": 2,\n" +
             "    \"price\": \"77.00\",\n" +
-            "    \"img\": \"\",\n" +
+            "    \"img\": \"http://i2.sleeve.7yue.pro/n11.png\",\n" +
             "    \"for_theme_img\": \"\",\n" +
             "    \"description\": null,\n" +
             "    \"discount_price\": \"62.00\",\n" +
@@ -274,7 +274,7 @@ public class SpuTestData {
             "            \"price\": 77.76,\n" +
             "            \"discount_price\": null,\n" +
             "            \"online\": true,\n" +
-            "            \"img\": \"\",\n" +
+            "            \"img\": \"http://i2.sleeve.7yue.pro/n11.png\",\n" +
             "            \"title\": \"金属灰·七龙珠\",\n" +
             "            \"spu_id\": 2,\n" +
             "            \"category_id\": 17,\n" +
@@ -307,7 +307,7 @@ public class SpuTestData {
             "            \"price\": 66,\n" +
             "            \"discount_price\": 59,\n" +
             "            \"online\": true,\n" +
-            "            \"img\": \"\",\n" +
+            "            \"img\": \"http://i2.sleeve.7yue.pro/m24.png\",\n" +
             "            \"title\": \"青芒色·灌篮高手\",\n" +
             "            \"spu_id\": 2,\n" +
             "            \"category_id\": 17,\n" +
@@ -340,7 +340,7 @@ public class SpuTestData {
             "            \"price\": 88,\n" +
             "            \"discount_price\": null,\n" +
             "            \"online\": true,\n" +
-            "            \"img\": \"\",\n" +
+            "            \"img\": \"http://i2.sleeve.7yue.pro/m17.png\",\n" +
             "            \"title\": \"青芒色·圣斗士\",\n" +
             "            \"spu_id\": 2,\n" +
             "            \"category_id\": 17,\n" +

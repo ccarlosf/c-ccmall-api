@@ -7,7 +7,7 @@
     <property name="log.level" value="debug"/>
     <property name="log.maxHistory" value="30"/>
     <property name="log.filePath" value="/carlos/c-ccmall/Logs"/>
-    <property name="log.filePath" value="E:/慕课网/职业产品/从Java后端到全栈/Other/Logs"/>
+  <!--  <property name="log.filePath" value="E:/慕课网/职业产品/从Java后端到全栈/Other/Logs"/>-->
     <!--<property name="log.filePath" value="${catalina.base}/logs/webapps" />-->
     <property name="log.pattern"
               value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n"/>
