@@ -406,8 +406,6 @@ public class SpuTestData {
             "        {\n" +
             "            \"id\": 165,\n" +
             "            \"img\": \"http://i1.sleeve.7yue.pro/assets/5605cd6c-f869-46db-afe6-755b61a0122a.png\",\n" +
-            "            \"img\": \"http://i2.sleeve.7yue.pro/n4.png\",\n" +
-            "            \"img\": \"http://i1.sleeve.7yue.pro/assets/09f32ac8-1af4-4424-b221-44b10bd0986e.png\",\n" +
             "            \"spu_id\": 2\n" +
             "        }\n" +
             "    ],\n" +
