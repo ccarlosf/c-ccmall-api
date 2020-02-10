@@ -58,4 +58,43 @@ public class CategoryTestData {
             "        \"root_category_id\": 24\n" +
             "    }\n" +
             "]";
+
+    public static String allCategoryData="{\n" +
+            "    \"roots\": [\n" +
+            "        {\n" +
+            "            \"id\": 37,\n" +
+            "            \"name\": \"测试数据\",\n" +
+            "            \"is_root\": true,\n" +
+            "            \"img\": null,\n" +
+            "            \"parent_id\": null,\n" +
+            "            \"index\": null\n" +
+            "        },\n" +
+            "        {\n" +
+            "            \"id\": 3,\n" +
+            "            \"name\": \"包包\",\n" +
+            "            \"is_root\": true,\n" +
+            "            \"img\": null,\n" +
+            "            \"parent_id\": null,\n" +
+            "            \"index\": 1\n" +
+            "        }\n" +
+            "    ],\n" +
+            "    \"subs\": [\n" +
+            "        {\n" +
+            "            \"id\": 6,\n" +
+            "            \"name\": \"平底鞋\",\n" +
+            "            \"is_root\": false,\n" +
+            "            \"img\": \"\",\n" +
+            "            \"parent_id\": 1,\n" +
+            "            \"index\": null\n" +
+            "        },\n" +
+            "        {\n" +
+            "            \"id\": 7,\n" +
+            "            \"name\": \"凉鞋\",\n" +
+            "            \"is_root\": false,\n" +
+            "            \"img\": null,\n" +
+            "            \"parent_id\": 1,\n" +
+            "            \"index\": null\n" +
+            "        }\n" +
+            "    ]\n" +
+            "}";
 }

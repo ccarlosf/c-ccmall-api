@@ -34,4 +34,12 @@ public class CategoryController {
         log.info("获取分类六宫格数据,,请求返回数据:{}", CategoryTestData.getCategoryByGrid);
         return CategoryTestData.getCategoryByGrid;
     }
+
+    @GetMapping("/all")
+    public String getCategoryAll(HttpServletRequest request){
+        Map<String, String[]> parameterMap = request.getParameterMap();
+        log.info("获取所有的分类数据,请求参数parameterMap:{}", JSON.toJSONString(parameterMap));
+        log.info("获取所有的额分类数据,,请求返回数据:{}", CategoryTestData.allCategoryData);
+        return CategoryTestData.allCategoryData;
+    }
 }
