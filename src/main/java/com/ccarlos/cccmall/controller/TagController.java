@@ -30,7 +30,7 @@ public class TagController {
     * @param: type 类型
     * @return: java.lang.String
     */
-    @GetMapping("/type/all/{type}")
+    @GetMapping("/tag/type/{type}")
     public String getCategoryByGrid(HttpServletRequest request,
                                     @PathVariable("type") Integer type){
         Map<String, String[]> parameterMap = request.getParameterMap();
