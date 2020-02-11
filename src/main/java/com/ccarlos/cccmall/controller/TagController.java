@@ -13,9 +13,9 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
 /**
- * @description: 分类控制器
- * @author: Created by ccarlos
- * @date: 2019/11/8 23:07
+ * @description: 标签控制器
+ * @author: ccarlos
+ * @date: 2020/2/11 22:23
  */
 @Slf4j
 @RestController
@@ -31,7 +31,7 @@ public class TagController {
     * @return: java.lang.String
     */
     @GetMapping("/type/{type}")
-    public String getCategoryByGrid(HttpServletRequest request,
+    public String getTagByType(HttpServletRequest request,
                                     @PathVariable("type") Integer type){
         Map<String, String[]> parameterMap = request.getParameterMap();
         log.info("根据类型获取标签数据,请求参数parameterMap:{}", JSON.toJSONString(parameterMap));
